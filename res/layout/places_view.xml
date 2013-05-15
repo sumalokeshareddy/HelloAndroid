@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/LinearLayout01"
+	android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:paddingLeft="10sp" android:paddingRight="10sp"
+	android:layout_height="wrap_content" android:orientation="vertical"
+	android:paddingTop="2mm">
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:padding="6dip">
+		<ImageView android:id="@+id/placeIcon" android:layout_width="wrap_content"
+			android:layout_height="fill_parent" android:layout_marginRight="6dip"
+			android:src="@drawable/icon" />
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="0dip" android:layout_weight="1"
+			android:layout_height="fill_parent">
+			<TextView android:layout_width="fill_parent" android:id="@+id/placeName"
+				android:layout_height="0dip" android:layout_weight="1"
+				android:gravity="center_vertical" android:text="Place Name" />
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="0dip" android:layout_weight="1" android:id="@+id/placeAddress"
+				android:singleLine="true" android:ellipsize="marquee" android:text="Simple application" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/LinearLayout03"
+		android:gravity="center" android:layout_height="wrap_content"
+		android:layout_width="match_parent">
+		<CheckBox android:id="@+id/fqcb" android:layout_width="wrap_content"
+			android:paddingRight="3mm" android:layout_height="wrap_content"
+			android:button="@drawable/fq_checkbox_notpressed" />
+		<CheckBox android:id="@+id/yelpcb" android:layout_width="wrap_content"
+			android:paddingRight="3mm" android:layout_height="wrap_content"
+			android:button="@drawable/yelp_checkbox_notpressed" />
+		<CheckBox android:id="@+id/fbcb" android:layout_width="wrap_content"
+			android:paddingRight="3mm" android:layout_height="wrap_content"
+			android:button="@drawable/fb_checkbox_notpressed" />
+		<CheckBox android:id="@+id/googlecb" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:button="@drawable/google_checkbox_notpressed" />
+	</LinearLayout>
+	<LinearLayout android:id="@+id/LinearLayout04"
+		android:layout_height="wrap_content" android:layout_width="match_parent">
+		<Button android:layout_width="match_parent" android:id="@+id/btnCheckin"
+			android:text="Click me" android:layout_height="wrap_content"></Button>
+	</LinearLayout>
+</LinearLayout>

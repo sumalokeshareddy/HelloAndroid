@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:id="@+id/tableLayout1"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shrinkColumns="*" android:stretchColumns="*">
+	<TableRow android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/tableRow1"
+		android:gravity="center_horizontal"
+		android:paddingTop="10mm">
+	</TableRow>
+	<TableRow android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/TableRow2">
+		<ImageButton android:id="@+id/fqButton" android:src="@drawable/fq_login"
+			android:layout_height="wrap_content" android:layout_width="match_parent">
+		</ImageButton>
+		<Button android:layout_width="match_parent" android:id="@+id/btnFQInfo"
+			android:text="Signed into FQ -->" android:layout_height="wrap_content"></Button>
+	</TableRow>
+	<TableRow android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/TableRow3">
+		<ImageButton android:id="@+id/yButton" android:src="@drawable/yelp_logo_50x25"
+			android:layout_height="wrap_content" android:layout_width="match_parent">
+		</ImageButton>
+	</TableRow>
+	<TableRow android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/TableRow4">
+		<ImageButton android:id="@+id/fbButton" android:src="@drawable/fb_login"
+			android:layout_height="wrap_content" android:layout_width="match_parent">
+		</ImageButton>
+	</TableRow>
+	<TableRow android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/TableRow4">
+		<ImageButton android:id="@+id/gowallaButton" android:src="@drawable/gowalla_login"
+			android:layout_height="wrap_content" android:layout_width="match_parent">
+		</ImageButton>
+	</TableRow>
+
+</TableLayout>

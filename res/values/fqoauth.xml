@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="client_id">T1AS4QOWZUZC0ETDD4BMETVL3BJJSQCVWBYTN50ABR0U3SBI</string>
+    <string name="client_secret">23RDJZQHDQWRHD25BHCE4KVNCP5OHB0QNGUDSBLXGUKV5TT2</string>
+    <string name="accessTokenUrl">https://foursquare.com/oauth2/access_token</string>
+    <string name="authenticationUrl">https://foursquare.com/oauth2/authenticate</string>
+        <string name="oauthCallbackUri">fqoauth2://oauthcallback</string>
+        <string name="touch">true</string>
+        <string name="accessTokenPreferenceName">accessTokenPref</string>
+    
+</resources>

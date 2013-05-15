@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="yelpConsumerKey">5TSgtaNG08EQ9G1lioKrCg</string>
+	<string name="yelpConsumerSecret">zwOR3kfP34DrZ3NyMcil2HcfIlA</string>
+	<string name="yelpToken">ovmnqVOXcSDZtpT6n4edmSVSpKZbPLd1</string>
+	<string name="yelpTokenSecret">TWlTP98D8D0-Clwsl0OYQqbZeFc</string>
+	<string name="yelpYWSID">1NXGXESsWw1agNBbVJScHA</string>
+	<string name="yelpEncodingScheme">UTF-8</string>
+</resources>

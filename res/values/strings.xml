@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, HelloAndroid!</string>
+    <string name="app_name">TitanV0M0B1</string>
+    <string name="username_string">Username</string>
+    <string name="login_string">Login</string>
+    <string name="password_string">Password</string>
+    <string name="androidOauthLogTag">TitanFourSquare</string>
+    <string name="resultingActivityPackageName">com.example.helloandroid</string>
+    <string name="resultingActivityClassName">com.example.helloandroid.FQOAuth2
+    </string>
+</resources>
